@@ -20,7 +20,7 @@ h2 {
   font-size: 40px;
   margin-top: 0;
 }
-h3 {
+#personal-detail h3 {
   margin: 0;
 }
 a {
@@ -145,4 +145,14 @@ p + h3 {
   .profile-img {
     width: 200px;
   }
+}
+@media (max-width: 360px){
+  #cert h2, #work-exp h2, #tech h2, #intern h2, #personal-detail h2, #car h2, #acad-detail h2{
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+}
+#cert h2, #work-exp h2, #tech h2, #intern h2, #personal-detail h2, #car h2, #acad-detail h2{
+  
+  text-transform: uppercase;
 }
